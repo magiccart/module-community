@@ -1,0 +1,25 @@
+{
+  "name": "magiccart/community",
+  "description": "This module is require for other module from magiccart.",
+  "type": "magento2-module",
+  "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Magiccart",
+      "email": "support@alothemes.com",
+      "homepage": "https://alothemes.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "Magiccart\\Community\\": ""
+      }
+  }
+}
