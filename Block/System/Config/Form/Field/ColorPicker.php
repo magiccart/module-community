@@ -4,10 +4,10 @@
  * @Author: Alex Dong
  * @Date:   2020-07-09 22:24:37
  * @Last Modified by:   Alex Dong
- * @Last Modified time: 2020-07-14 19:11:12
+ * @Last Modified time: 2020-08-27 22:59:34
  */
 
-namespace Magepow\Productzoom\Block\System\Config\Form\Field;
+namespace Magiccart\Community\Block\System\Config\Form\Field;
 
 class ColorPicker extends \Magento\Config\Block\System\Config\Form\Field
 {

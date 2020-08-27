@@ -3,19 +3,18 @@
 // Default Variables
 
 @slick-font-path: "./fonts/";
-@slick-font-family: @icon-font;
+@slick-font-family: @icons-admin__font-name;
 @slick-loader-path: "../";
-@slick-arrow-color: @button__color;
+@slick-arrow-color: #333;
 @slick-dot-color: black;
 @slick-dot-color-active: @slick-dot-color;
-@slick-prev-character: @icon-prev;
-@slick-next-character: @icon-next;
+@slick-prev-character: @icon-arrow-left__content;
+@slick-next-character: @icon-arrow-right__content;
 @slick-dot-character: "•";
 @slick-dot-size: 6px;
 @slick-opacity-default: 0.75;
 @slick-opacity-on-hover: 1;
 @slick-opacity-not-active: 0.25;
-& when (@media-common = true) {
     /* Slider */
     .slick-loading .slick-list{
         background: #fff url('@{slick-loader-path}images/loader-1.gif') center center no-repeat;
@@ -166,4 +165,3 @@
             }
         }
     }
-}

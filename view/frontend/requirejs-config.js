@@ -2,13 +2,16 @@ var config = {
 
 	map: {
 		'*': {
-			'slick': 'Magiccart_Community/js/plugin/slick.min',
+			'slick'			: 'magiccart/slick',
+			'easing'		: 'magiccart/easing',
+			'gridSlider'	: 'magiccart/grid-slider',
 		},
 	},
 
 	paths: {
-		'magiccart/slick'	: 'Magiccart_Community/js/plugin/slick.min',
-		'magiccart/easing'	: 'Magiccart_Community/js/plugin/jquery.easing.min'
+		'magiccart/slick'		: 'Magiccart_Community/js/plugin/slick.min',
+		'magiccart/easing'		: 'Magiccart_Community/js/plugin/jquery.easing.min'
+		'magiccart/grid-slider'	: 'Magiccart_Community/js/grid-slider',
 	},
 
 	shim: {
@@ -17,6 +20,9 @@ var config = {
 		},
 		'magiccart/easing': {
 			deps: ['jquery']
-		}
+		},
+		'magiccart/magicslider': {
+			deps: ['jquery', 'slick']
+		},
 	}
 };

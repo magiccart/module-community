@@ -18,10 +18,17 @@
             <resource>Magiccart_Community::config_community</resource>
             <group id="general" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General</label>
-                <field id="enabled" translate="label comment" type="select" sortOrder="0"  showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
-                    <label>Enabled</label>
-                    <comment>Enabled Module</comment>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                <field id="feed" translate="label comment" type="text" sortOrder="0"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Feed</label>
+                    <frontend_model>Magiccart\Community\Block\Adminhtml\System\Feed</frontend_model>
+                    <comment>Feed</comment>
+                    <comment>
+                        <![CDATA[
+                            <script type="text/javascript">
+                                require(['jquery', 'magiccart/slick', magiccart/feed']);
+                            </script>
+                        ]]>
+                    </comment>
                 </field>
             </group>
         </section>
