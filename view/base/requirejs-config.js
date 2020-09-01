@@ -2,18 +2,18 @@ var config = {
 
 	map: {
 		'*': {
-			'slick': 'magepow/slick',
-			'gridSlider': 'magepow/grid-slider',
+			'slick': 'magiccart/slick',
+			'gridSlider': 'magiccart/grid-slider',
 		},
 	},
 
 	paths: {
-		'magepow/slick'			: 'Magepow_Core/js/plugin/slick.min',
-		'magepow/grid-slider'	: 'Magepow_Core/js/grid-slider',
+		'magiccart/slick'			: 'Magiccart_Community/js/plugin/slick.min',
+		'magiccart/grid-slider'	: 'Magiccart_Community/js/grid-slider',
 	},
 
 	shim: {
-		'magepow/slick': {
+		'magiccart/slick': {
 			deps: ['jquery']
 		}
 	}

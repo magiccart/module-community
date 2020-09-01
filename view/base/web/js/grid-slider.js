@@ -2,7 +2,7 @@
 * @Author: Alex Dong
 * @Date:   2020-07-29 13:21:07
 * @Last Modified by:   Alex Dong
-* @Last Modified time: 2020-08-27 22:40:56
+* @Last Modified time: 2020-09-01 11:14:27
 */
 
 define([
@@ -11,7 +11,7 @@ define([
     'jquery-ui-modules/widget'
     ], function ($, slick) {
 		"use strict";
-        $.widget('magepow.gridSlider', {
+        $.widget('magiccart.gridSlider', {
             options: {
                 selector: '.grid-slider',
             },
@@ -113,6 +113,6 @@ define([
             }
         });
 
-    return $.magepow.gridSlider;
+    return $.magiccart.gridSlider;
 
 });
