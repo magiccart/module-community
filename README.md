@@ -1,5 +1,9 @@
 # Magiccart Community for Magento 2
 
+[![Latest Stable Version](https://poser.pugx.org/magiccart/community/v/stable)](https://packagist.org/packages/magiccart/community)
+[![Total Downloads](https://poser.pugx.org/magiccart/community/downloads)](https://packagist.org/packages/magiccart/community)
+[![Daily Downloads](https://poser.pugx.org/magiccart/community/d/daily)](https://packagist.org/packages/magiccart/community)
+
 ## How to install & upgrade Magiccart_Community
 
 ### 1. Install via composer (recommend)
@@ -103,6 +107,3 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 * [Customization Service](https://magiccart.com/customization-service.html)
 
 * [Hire Magento Developer](https://magiccart.com/hire-magento-developer.html)
-
-[![Latest Stable Version](https://poser.pugx.org/magiccart/community/v/stable)](https://packagist.org/packages/magiccart/community)
-[![Total Downloads](https://poser.pugx.org/magiccart/community/downloads)](https://packagist.org/packages/magiccart/community)
