@@ -2,7 +2,7 @@
 * @Author: Alex Dong
 * @Date:   2020-07-29 13:21:07
 * @Last Modified by:   Alex Dong
-* @Last Modified time: 2021-02-21 00:27:35
+* @Last Modified time: 2021-03-02 13:30:21
 */
 
 define([
@@ -66,9 +66,12 @@ define([
 								entries.forEach(function(entry) {
 									if (entry.isIntersecting) {
 										let el  = entry.target;
-										$head.find('#' + styleId).remove();
-										self.sliderRender($(el));
-										gridSliderObserver.unobserve(el);
+										var $el = $(el);
+										self.sliderRender($el);
+										$el.on('init', function(){
+											$head.find('#' + styleId).remove();
+										});
+										// gridSliderObserver.unobserve(el);
 									}
 								});
 							});
@@ -100,11 +103,13 @@ define([
 					});	
 		           	$head.append('<style type="text/css" id="' + styleId + '" >'+style+'</style>');
 
+		           	self.element.addClass('grid-init');
+		           	
                 });
             },
 
             getPesponsive : function (options) {
-            	if(!options.slidesToShow) return options.responsive;
+            	if(!options.slidesToShow || !options.responsive) return options.responsive;
 				var responsive 	= options.responsive;
 				var length = Object.keys(responsive).length;
 				var gridResponsive = [];
@@ -117,6 +122,10 @@ define([
             },
 
             sliderRender: function (el) {
+            	if(el.hasClass('slick-initialized')){
+            		el.slick("refresh");
+            		return;
+            	}
             	var options = el.data();
                 var lazy  = el.find('img.lazyload');
                 if(lazy.length){
