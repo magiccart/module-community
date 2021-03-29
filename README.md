@@ -56,21 +56,21 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 **Free Extensions List**
 
-* [Magento 2 Recent Sales Notification](https://magiccart.com/magento-2-recent-sales-notification.html)
+* [Magento 2 Recent Sales Notification](https://magepow.com/magento-2-recent-sales-notification.html)
 
-* [Magento 2 Categories Extension](https://magiccart.com/magento-categories-extension.html)
+* [Magento 2 Categories Extension](https://magepow.com/magento-categories-extension.html)
 
-* [Magento 2 Sticky Cart](https://magiccart.com/magento-sticky-cart.html)
+* [Magento 2 Sticky Cart](https://magepow.com/magento-sticky-cart.html)
 
 **Premium Extensions List**
 
-* [Magento 2 Pages Speed Optimizer](https://magiccart.com/magento-speed-optimizer.html)
+* [Magento 2 Pages Speed Optimizer](https://magepow.com/magento-speed-optimizer.html)
 
-* [Magento 2 Mutil Translate](https://magiccart.com/magento-multi-translate.html)
+* [Magento 2 Mutil Translate](https://magepow.com/magento-multi-translate.html)
 
-* [Magento 2 Instagram Integration](https://magiccart.com/magento-2-instagram.html)
+* [Magento 2 Instagram Integration](https://magepow.com/magento-2-instagram.html)
 
-* [Magento 2 Lookbook Pin Products](https://magiccart.com/lookbook-pin-products.html)
+* [Magento 2 Lookbook Pin Products](https://magepow.com/lookbook-pin-products.html)
 
 **Featured Magento Themes**
 
@@ -92,18 +92,18 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 **Featured Magento Services**
 
-* [PSD to Magento 2 Theme Conversion](https://magiccart.com/psd-to-magento-theme-conversion.html)
+* [PSD to Magento 2 Theme Conversion](https://magepow.com/psd-to-magento-theme-conversion.html)
 
-* [Magento Speed Optimization Service](https://magiccart.com/magento-speed-optimization-service.html)
+* [Magento Speed Optimization Service](https://magepow.com/magento-speed-optimization-service.html)
 
-* [Magento Security Patch Installation](https://magiccart.com/magento-security-patch-installation.html)
+* [Magento Security Patch Installation](https://magepow.com/magento-security-patch-installation.html)
 
-* [Magento Website Maintenance Service](https://magiccart.com/website-maintenance-service.html)
+* [Magento Website Maintenance Service](https://magepow.com/website-maintenance-service.html)
 
-* [Magento Professional Installation Service](https://magiccart.com/professional-installation-service.html)
+* [Magento Professional Installation Service](https://magepow.com/professional-installation-service.html)
 
-* [Magento Upgrade Service](https://magiccart.com/magento-upgrade-service.html)
+* [Magento Upgrade Service](https://magepow.com/magento-upgrade-service.html)
 
-* [Customization Service](https://magiccart.com/customization-service.html)
+* [Customization Service](https://magepow.com/customization-service.html)
 
-* [Hire Magento Developer](https://magiccart.com/hire-magento-developer.html)
+* [Hire Magento Developer](https://magepow.com/hire-magento-developer.html)
