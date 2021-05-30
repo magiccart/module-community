@@ -1,3 +1,11 @@
-.magiccart_community{
-	display: block;
+& when (@media-common = true) {
+	.magiccart_community{
+		display: block;
+	}
+	.grid-slider {
+		opacity: 0;
+	}
+	.grid-slider.grid-init, .grid-slider.slick-initialized {
+		opacity: 1;
+	}
 }
