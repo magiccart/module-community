@@ -4,7 +4,7 @@
  * @Author: Alex Dong
  * @Date:   2020-07-14 19:00:33
  * @Last Modified by:   Alex Dong
- * @Last Modified time: 2020-07-14 19:40:37
+ * @Last Modified time: 2021-06-10 09:25:18
  */
 
 namespace Magiccart\Community\Helper;
@@ -47,6 +47,16 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
         }
         return $value;
+    }
+
+    public function isEnabledModule($moduleName)
+    {
+        return $this->moduleManager->isEnabled($moduleName);
+    }
+
+    public function getModuleName()
+    {
+        return $this->_getModuleName();
     }
 
 }
