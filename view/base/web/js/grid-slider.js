@@ -2,7 +2,7 @@
 * @Author: Alex Dong
 * @Date:   2020-07-29 13:21:07
 * @Last Modified by:   Alex Dong
-* @Last Modified time: 2021-06-09 11:20:20
+* @Last Modified time: 2021-07-12 14:18:38
 */
 
 define([
@@ -14,6 +14,8 @@ define([
         $.widget('magiccart.gridSlider', {
             options: {
                 selector: '.grid-slider',
+                useIntersectionObserver: true,
+                unobserve: true
             },
 
             _create: function () {
@@ -35,6 +37,8 @@ define([
 
             _initSlider: function () {
                 var options = this.options;
+                var useIntersectionObserver = options.useIntersectionObserver;
+                var unobserve = options.unobserve;
                 var self = this;
                 var $head = $('head');
                 var elements = options.selector ? self.element.find(options.selector) : self.element;
@@ -60,7 +64,7 @@ define([
 		            $head.append('<style type="text/css" >'+style+'</style>');
 		            style 		= '';
 		            if(options.slidesToShow){
-						if ("IntersectionObserver" in window) {
+						if ("IntersectionObserver" in window && useIntersectionObserver) {
 							var nthChild = options.slidesToShow + 1;
 							style += selector + ' .item:nth-child(n+ ' + nthChild + ')' + '{display: none;} ' + selector +  ' .item{float:left};';
 							let gridSliderObserver = new IntersectionObserver(function(entries, observer) {
@@ -72,7 +76,7 @@ define([
 											$head.find('#' + styleId).remove();
 										});
 										self.sliderRender($el);
-										// gridSliderObserver.unobserve(el);
+										if(unobserve) gridSliderObserver.unobserve(el);
 									}
 								});
 							});
