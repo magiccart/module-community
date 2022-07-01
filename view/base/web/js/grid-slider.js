@@ -2,13 +2,13 @@
 * @Author: Alex Dong
 * @Date:   2020-07-29 13:21:07
 * @Last Modified by:   Alex Dong
-* @Last Modified time: 2021-07-14 09:07:29
+* @Last Modified time: 2022-07-01 08:40:16
 */
 
 define([
     'jquery',
     'slick',
-    'jquery/ui'
+    'jquery-ui-modules/core'
     ], function ($, slick) {
 		"use strict";
         $.widget('magiccart.gridSlider', {
